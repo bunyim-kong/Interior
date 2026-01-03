@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="image/logo-x tra.png" alt="">
+            </div>
+            <div class="nav-link">
+                <ul>
+                    <li><a href="#hero" class="active">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="">Project</a></li>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Shop</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <script>
+            window.addEventListener("scroll", function() {
+                const header = document.querySelector("header");
+                if (window.scrollY > 50) {
+                    header.classList.add("scrolled");
+                } else {
+                    header.classList.remove("scrolled");
+                }
+            });
+        </script>
+    </header>
+
+    <section id="hero">
+        <img src="image/page 1.jpg" alt="">
+
+        <div class="hero-infor">
+            <h1>Living Room</h1>
+            <hr>
+            <p>Mordern & Minimal Design</p>
+        </div>
+    </section>
+
+    <section class="about-and-category">  
+        <div class="category">
+            <div class="category-cols" style="background-color: black;">
+                <a href="">
+                    <i class="fa-solid fa-angle-right"></i>
+                </a>
+
+                <span>Interior Design</span>
+            </div>
+            
+            <div class="category-cols extra" style="background-color: rgb(6, 197, 6);">
+                <a href="">
+                    <i class="fa-solid fa-angle-right"></i>
+                </a>
+
+                <span>Decoration</span>
+            </div>
+
+            <div class="category-cols extra" style="background-color: rgb(71, 204, 71);">
+                <a href="">
+                    <i class="fa-solid fa-angle-right"></i>
+                </a>
+
+                <span>Decoration</span>
+            </div>
+
+            <div class="category-cols extra" style="background-color: rgb(128, 212, 128);">
+                <a href="">
+                    <i class="fa-solid fa-angle-right"></i>
+                </a>
+
+                <span>Decoration</span>
+            </div>
+        </div>
+
+        <div id="about">
+            <div class="about-content">
+                <div class="about-left-cols">
+                    <h1>About Us</h1>
+                    <p>Interior design is the art and science of enhancing the interior of a building to achieve a healthier and more aesthetically pleasing environment 
+                    for the people using the space. An interior designer is someone who plans, researches, coordinates, and manages such projects. Interior design is a 
+                    multifaceted profession that includes conceptual development, space planning, site inspections, programming, research, communicating with the stakeholders 
+                    of a project, construction management, and execution of the design.</p>
+
+                    <a href="about.html">Read More <span><i class="fa-solid fa-angle-right"></i></span></a>
+                </div>
+
+                <div class="about-right-cols">
+                    <div class="box-style"></div>
+
+                    <div class="text-box-style-num">
+                        <h1>12</h1> 
+                    </div>
+
+                    <div class="text-box-style-txt">
+                        <span>Years</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="our-work">
+        <div class="our-work-content">
+            <h1>Our Works</h1>
+
+            <div class="work-content-items">
+                <div class="work-cols-items">
+                    <div class="work-cols-top">
+                        <img src="image/work-01.jpg" alt="">
+                    </div>
+
+                    <div class="work-cols-bottom">
+                        <div class="work-cols-small">
+                            <img src="image/work-02.jpg" alt="">
+                        </div>
+
+                        <div class="work-cols-small">
+                            <img src="image/work-03.jpg" alt="">
+                        </div>
+
+                        <div class="work-cols-small">
+                            <img src="image/work-04.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work-cols-items">
+                    <div class="work-cols-bottom-extra">
+                        <div class="work-cols-small">
+                            <img src="image/work-05.jpg" alt="">
+                        </div>
+
+                        <div class="work-cols-small">
+                            <img src="image/work-06.jpg" alt="">
+                        </div>
+
+                        <div class="work-cols-small">
+                            <img src="image/work-07.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="work-cols-top">
+                        <img src="image/work-08.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="more-infor">
+        <div class="infor-content">
+            <div class="infor-content-right-cols">
+                <img src="image/more-infor 01.jpg" alt="">
+            </div>
+
+            <div class="infor-content-left-cols">
+                <h1>Amazing Bedrooms</h1>
+                <p>An interior designer is someone who plans, researches, coordinates, and manages such projects. Interior design is a multifaceted profession that includes conceptual development, space planning, site inspections, programming, research, 
+                communicating with the stakeholders of a project, construction management, and execution of the design.</p>
+
+                <a href="">View Prject<span><i class="fa-solid fa-angle-right"></i></span></a>
+            </div>
+        </div>
+
+        <div class="infor-content">
+            <div class="infor-content-right-cols-swap">
+                <h1>Modern Kitchens</h1>
+                <p>Interior design is the art and science of enhancing the interior of a building to achieve a healthier and more aesthetically pleasing environment for the people using the space. 
+                An interior designer is someone who plans, researches, coordinates, and manages such projects. Interior design is a multifaceted 
+                profession that includes conceptual development, space planning and site inspections.</p>
+
+                <a href="">View Prject<span><i class="fa-solid fa-angle-right"></i></span></a>
+            </div>
+
+            <div class="infor-content-left-cols-swap">
+                <img src="image/more-infor 02.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="our-service" id="Services">
+        <div class="our-services-contents">
+            <div class="our-services-content-col">
+                    <div class="our-services-cols-big">
+                        <h4><i class="fa-solid fa-minus"></i> Our Services</h4>
+                    </div>
+
+                    <div class="our-services-cols">
+                        <i class="fa-solid fa-couch"></i>
+                        <p>Interior Design</p>
+
+                        <div class="our-services-cols-infor">
+                            <img src="image/work-05.jpg" alt="">
+
+                            <div class="our-services-cols-infor-text">
+                                <h1>Interior Design</h1>
+                                <p>Interior design blends function and style to create spaces that are comfortable, beautiful, and inspiring.</p>
+                                <a href="service.html">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="our-services-cols">
+                        <i class="fa-solid fa-house-laptop"></i>
+                        <p>Home Decoration</p>
+
+                        <div class="our-services-cols-infor">
+                            <img src="image/more-infor 01.jpg" alt="">
+
+                            <div class="our-services-cols-infor-text">
+                                <h1>Home Decoration</h1>
+                                <p>Home decoration arranges furniture, colors, and accessories to make a space cozy, personal, and appealing.</p>
+                                <a href="service.html">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="our-services-contents">
+            <div class="our-services-content-col">
+
+            <div class="our-services-cols">
+                        <i class="fa-solid fa-ruler-combined"></i>
+                        <p>Exterior Design</p>
+
+                        <div class="our-services-cols-infor">
+                            <img src="image/work-08.jpg" alt="">
+
+                            <div class="our-services-cols-infor-text">
+                                <h1>Exterior Design</h1>
+                                <p>Exterior design shapes a building’s look with materials, colors, and landscaping for an attractive appearance.</p>
+                                <a href="service.html">Learn More</a>
+                            </div>
+                        </div>
+            </div>
+                
+            <div class="our-services-cols">
+                        <i class="fa-solid fa-kitchen-set"></i>
+                        <p>Kitchen Design</p>
+
+                        <div class="our-services-cols-infor">
+                            <img src="image/more-infor 02.jpg" alt="">
+
+                            <div class="our-services-cols-infor-text">
+                                <h1>Kitchen Design</h1>
+                                <p>Kitchen design focuses on creating functional and aesthetically pleasing kitchen spaces that enhance the cooking and dining experience.</p>
+                                <a href="service.html">Learn More</a>
+                            </div>
+                        </div>
+            </div>
+
+            <div class="our-services-cols-big-swap">
+                    <h4>Contact Us <br>
+                    and make your dream <br>
+                    come true!</h4>
+
+                    <a href="">Get A Quote <span><i class="fa-solid fa-angle-right"></i></span></a>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="shop">
+        <h1>Decoration Shop</h1>
+
+        <div class="shop-content">
+            <img src="image/page 1.jpg" alt="">
+
+            <div class="shop-content-cols">
+                <div class="shop-content-cols-1">
+                    <i class="fa-solid fa-info"></i>
+                </div>
+
+                <div class="shop-info-box">
+                    <h1>Skateboard</h1>
+                    <p>$117.00</p>
+
+                    <span>A good skateboard is durable, balanced, and smooth.</span>
+                    <a href="">Buy Now <small><i class="fa-solid fa-cart-shopping"></i></small></a>
+                </div>
+            </div>
+
+            <div class="shop-content-cols-extra">
+                <div class="shop-content-cols-1-extra">
+                    <i class="fa-solid fa-info"></i>
+                </div>
+
+                <div class="shop-info-box-extra">
+                    <h1>Yellow Chair</h1>
+                    <p>$199.00</p>
+
+                    <span>A bright, cheerful touch while offering comfort and style.</span>
+                    <a href="">Buy Now <small><i class="fa-solid fa-cart-shopping"></i></small></a>
+                </div>
+            </div>
+
+            <div class="shop-content-cols-extra-2">
+                <div class="shop-content-cols-1-extra-2">
+                    <i class="fa-solid fa-info"></i>
+                </div>
+
+                <div class="shop-info-box-extra-2">
+                    <h1>Calligraphy Art</h1>
+                    <p>$500.00</p>
+
+                    <span>Stands out with its bright, vibrant strokes, adding energy and warmth to the design.</span>
+                    <a href="">Buy Now <small><i class="fa-solid fa-cart-shopping"></i></small></a>
+                </div>
+            </div>
+
+            <div class="shop-content-cols-extra-3">
+                <div class="shop-content-cols-1-extra-3">
+                    <i class="fa-solid fa-info"></i>
+                </div>
+
+                <div class="shop-info-box-extra-3">
+                    <h1>Lemon Art</h1>
+                    <p>$10.00</p>
+
+                    <span>Creative piece designed to look exactly like a real lemon.</span>
+                    <a href="">Buy Now <small><i class="fa-solid fa-cart-shopping"></i></small></a>
+                </div>
+            </div>
+
+            <div class="shop-content-cols-extra-4">
+                <div class="shop-content-cols-1-extra-4">
+                    <i class="fa-solid fa-info"></i>
+                </div>
+
+                <div class="shop-info-box-extra-4">
+                    <h1>Lemon Art</h1>
+                    <p>$10.00</p>
+
+                    <span>Creative piece designed to look exactly like a real lemon.</span>
+                    <a href="">Buy Now <small><i class="fa-solid fa-cart-shopping"></i></small></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-content-logo-cols">
+                <img src="image/logo-x tra.png" alt="">
+            </div>
+
+            <div class="footer-content-link-cols">
+                <div class="footer-link-item">
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+
+                <div class="footer-link-item">
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+
+                <div class="footer-link-item">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+
+                <div class="footer-link-item">
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                </div>
+
+                <div class="footer-link-item">
+                    <a href=""><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-cols-location">
+                <p><i class="fa-solid fa-location-dot"></i> 123 Main St, Anytown, USA</p>
+            </div>
+        </div>
+
+        <div class="footer-cols-copyright">
+                <p>&copy; 2025 X-Tra. All rights reserved.</p>
+            </div>
+    </footer>
+</body>
+</html>

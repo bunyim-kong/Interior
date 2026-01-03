@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="image/logo-x tra.png" alt="">
+            </div>
+            <div class="nav-link">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about" class="active">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="">Project</a></li>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Shop</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <script>
+            window.addEventListener("scroll", function() {
+                const header = document.querySelector("header");
+                if (window.scrollY > 50) {
+                    header.classList.add("scrolled");
+                } else {
+                    header.classList.remove("scrolled");
+                }
+            });
+        </script>
+    </header>
+
+    <section>
+        <div class="hero">
+            <img src="image/page 1.jpg" alt="">
+
+            <h1>About Us</h1>
+        </div>
+    </section>
+
+    <section class="about-cols">
+        <div class="about-content-infor">
+            <h2>About</h2>
+            <p>Interior design is the art and science of enhancing the interior of a building to achieve a healthier and more aesthetically pleasing environment for the people using the space. An interior designer is someone who plans, researches, coordinates, and manages such projects.</p>
+            <p>Interior design is a multifaceted profession that includes conceptual development, space planning, site inspections, programming, research, communicating with the stakeholders of a project, construction management, and execution of the design.</p>
+
+            <div class="about-content-icons">
+                <div class="about-content-icons-interior">
+                    <div class="icon-percent-interior">
+                        <i class="fa-solid fa-angle-right"></i> Interior Design
+                    </div>
+
+                    <div class="icon-num-interior">
+                        10%
+                    </div>
+                </div>
+
+                <div class="about-content-icons-decoration">
+                    <div class="icon-percent-decoration">
+                        <i class="fa-solid fa-angle-right"></i> Decoration
+                    </div>
+
+                    <div class="icon-num-decoration">
+                        70%
+                    </div>
+                </div>
+                
+
+                <div class="about-content-icons-exterior">
+                    <div class="icon-percent-exterior">
+                        <i class="fa-solid fa-angle-right"></i> Exterior Design
+                    </div>
+
+                    <div class="icon-num-exterior">
+                        80%
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-content-img">
+            <img src="image/about-us 1.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="about-contact">
+        <div class="about-contact-me">
+            <div class="about-me-text-item">
+                <h2>About Me</h2>
+                <p>I am a first-year student at PSE Institute in the TVET program. So far, I have learned HTML, CSS, and JavaScript. I really enjoy doing research and exploring new things, especially in technology and web development. </p>
+
+                <p>I designed this website because I am passionate about interior design and architecture. I enjoy creating beautiful and functional spaces, both inside and outside the house, through interior and exterior decoration.</p>
+
+                <a href="">Contact Me <span><i class="fa-solid fa-angle-right"></i></span></a>
+            </div>
+
+            <div class="about-me-img-item">
+                <img src="image/owner.jpg" alt="">
+
+                <div class="about-me-img-overlay">
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-telegram"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                </div>    
+
+                <h4>Kong Bunyim</h4>
+                <span>Developer</span>
+            </div>
+        </div>
+
+        <div class="about-my-social-links">
+            <div class="about-my-social-links-item">
+                <p><span><i class="fa-solid fa-share-nodes"></i></span> My Teamwork</p>
+            </div>
+
+            <div class="about-my-social-media">
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-telegram"></i></a>
+                <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-content-logo-cols">
+                <img src="image/logo-x tra.png" alt="">
+            </div>
+
+            <div class="footer-content-link-cols">
+                <div class="footer-link-item">
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+
+                <div class="footer-link-item">
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+
+                <div class="footer-link-item">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+
+                <div class="footer-link-item">
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                </div>
+
+                <div class="footer-link-item">
+                    <a href=""><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-cols-location">
+                <p><i class="fa-solid fa-location-dot"></i> 123 Main St, Anytown, USA</p>
+            </div>
+        </div>
+
+        <div class="footer-cols-copyright">
+                <p>&copy; 2025 X-Tra. All rights reserved.</p>
+            </div>
+    </footer>
+</body>
+</html>
