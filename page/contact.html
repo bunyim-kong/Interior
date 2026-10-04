@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact X-Tra to discuss an interior design idea or ask a question.">
+  <title>Contact | X-Tra</title>
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/pages.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <script src="../js/main.js" defer></script>
+</head>
+
+<body data-page="contact" data-root="../"><a class="visually-hidden" href="#main">Skip to
+    content</a><site-header></site-header>
+  <main id="main">
+    <section class="page-hero"><img class="page-hero__image" src="../image/more-infor 01.jpg" alt="Warm designed room">
+      <div class="container"><span class="eyebrow">Let's connect</span>
+        <h1>Contact Us</h1>
+        <p>Tell us what you're imagining for your space.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container contact-grid">
+        <div><span class="eyebrow">Start a conversation</span>
+          <h2 class="section-title">We'd love to hear your idea.</h2>
+          <p>Send a question or share a few details about the room you have in mind. The form will prepare an email in
+            your mail app.</p>
+          <div class="contact-detail">
+            <h3>Email</h3><a href="mailto:example@gmail.com">example@gmail.com</a>
+          </div>
+          <div class="contact-detail">
+            <h3>Looking for something specific?</h3>
+            <p>Explore the <a href="services.html">services</a>, browse the <a href="project.html">project gallery</a>,
+              or check the <a href="faq.html">FAQ</a>.</p>
+          </div>
+        </div>
+        <form class="contact-form" data-contact-form>
+          <div class="form-field"><label for="name">Your name</label><input id="name" name="name" type="text"
+              autocomplete="name" required></div>
+          <div class="form-field"><label for="email">Email address</label><input id="email" name="email" type="email"
+              autocomplete="email" required></div>
+          <div class="form-field form-field--full"><label for="type">What are you interested in?</label><select
+              id="type" name="type">
+              <option>Interior design</option>
+              <option>Home decoration</option>
+              <option>Exterior design</option>
+              <option>Kitchen design</option>
+              <option>General question</option>
+            </select></div>
+          <div class="form-field form-field--full"><label for="message">Tell us about it</label><textarea id="message"
+              name="message" required></textarea></div>
+          <div class="form-field--full"><button class="button button--dark" type="submit">Prepare Email <i
+                class="fa-solid fa-arrow-right" aria-hidden="true"></i></button></div>
+          <p class="form-note" data-form-status aria-live="polite">This opens your email app so you can review and send
+            your message.</p>
+        </form>
+      </div>
+    </section>
+  </main><site-footer></site-footer>
+</body>
+
+</html>
