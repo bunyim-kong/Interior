@@ -1,0 +1,182 @@
+[
+  {
+    "slug": "living-room",
+    "title": "Living Room",
+    "category": "Interior Design",
+    "tagline": "Modern forms, comfortable layers and a confident yellow accent.",
+    "heroImage": "../image/work-01.jpg",
+    "heroAlt": "Contemporary grey living room with yellow accents",
+    "description": "This living room balances a calm charcoal palette with warm yellow details. A simple furniture plan keeps the room open while layered textiles and focused lighting make it comfortable for everyday use.",
+    "challenge": "Create a strong visual identity without making the room feel dark or crowded.",
+    "solution": "We used a restrained material palette, a clear circulation path and concentrated color in a few memorable pieces.",
+    "year": "2026",
+    "scope": "Interior design and styling",
+    "style": "Modern minimal",
+    "features": ["Open furniture layout", "Layered task and ambient lighting", "Charcoal, grey and yellow palette", "Soft textiles for comfort"],
+    "gallery": [
+      {"src": "../image/work-01.jpg", "alt": "Grey living room with yellow decorative accents"},
+      {"src": "../image/work-05.jpg", "alt": "Coordinated living area with grey seating"},
+      {"src": "../image/work-08.jpg", "alt": "Media wall with clean black furniture"}
+    ]
+  },
+  {
+    "slug": "everyday-living",
+    "title": "Everyday Living",
+    "category": "Interior Design",
+    "tagline": "A quiet composition built around space, light and one sculptural object.",
+    "heroImage": "../image/work-02.jpg",
+    "heroAlt": "Minimal grey interior with a yellow sculptural vase",
+    "description": "Everyday Living explores how a small number of well-placed elements can give a room character. The open floor, soft natural light and single yellow object make the space feel calm but intentional.",
+    "challenge": "Give a minimal room personality while preserving its sense of space.",
+    "solution": "A low visual horizon, subtle shadow and one sculptural focal point create rhythm without clutter.",
+    "year": "2026",
+    "scope": "Concept and decoration",
+    "style": "Minimal",
+    "features": ["Uncluttered floor plan", "Sculptural focal point", "Soft directional light", "Limited color palette"],
+    "gallery": [
+      {"src": "../image/work-02.jpg", "alt": "Yellow sculptural vase in a minimal grey room"},
+      {"src": "../image/work-03.jpg", "alt": "Relaxed corner with black and yellow details"},
+      {"src": "../image/work-07.jpg", "alt": "Yellow chair beside a geometric wire basket"}
+    ]
+  },
+  {
+    "slug": "material-and-light",
+    "title": "Material & Light",
+    "category": "Decoration",
+    "tagline": "Soft forms and graphic details for a relaxed reading corner.",
+    "heroImage": "../image/work-03.jpg",
+    "heroAlt": "Relaxed reading corner with a black floor cushion",
+    "description": "This compact corner uses texture and scale to make a simple setting feel inviting. The oversized floor cushion softens the graphic artwork, while the yellow clock and object carry the color story through the room.",
+    "challenge": "Turn an unused corner into a comfortable and visually complete place to pause.",
+    "solution": "We layered tactile fabric, graphic art and small functional objects at different heights.",
+    "year": "2026",
+    "scope": "Decoration and styling",
+    "style": "Graphic modern",
+    "features": ["Tactile floor seating", "Graphic monochrome artwork", "Compact accessory grouping", "Yellow accent details"],
+    "gallery": [
+      {"src": "../image/work-03.jpg", "alt": "Floor cushion, artwork and yellow clock"},
+      {"src": "../image/work-04.jpg", "alt": "Bedroom corner with a yellow chair"},
+      {"src": "../image/work-02.jpg", "alt": "Minimal room with yellow sculptural object"}
+    ]
+  },
+  {
+    "slug": "quiet-corners",
+    "title": "Quiet Corners",
+    "category": "Interior Design",
+    "tagline": "A bedroom corner shaped for comfort, clarity and a little energy.",
+    "heroImage": "../image/work-04.jpg",
+    "heroAlt": "Bedroom corner with a yellow chair and grey textured wall",
+    "description": "Quiet Corners brings function to the edge of a bedroom. The chair creates a useful place to sit, while the small bedside table, plant and textured wall give the composition balance.",
+    "challenge": "Add useful seating without interrupting movement around the bed.",
+    "solution": "A lightweight chair and compact table keep the layout flexible and visually open.",
+    "year": "2026",
+    "scope": "Bedroom interior design",
+    "style": "Contemporary",
+    "features": ["Compact reading chair", "Textured feature wall", "Clear bedside circulation", "Natural greenery"],
+    "gallery": [
+      {"src": "../image/work-04.jpg", "alt": "Yellow chair beside a modern bed"},
+      {"src": "../image/more-infor 01.jpg", "alt": "Warm and layered bedroom interior"},
+      {"src": "../image/work-03.jpg", "alt": "Informal reading corner with floor seating"}
+    ]
+  },
+  {
+    "slug": "finishing-touches",
+    "title": "Finishing Touches",
+    "category": "Decoration",
+    "tagline": "Personal objects, soft seating and practical storage working together.",
+    "heroImage": "../image/work-05.jpg",
+    "heroAlt": "Grey living area with decorative shelving and yellow accents",
+    "description": "Finishing Touches shows how accessories can complete a room without overwhelming it. Open shelving gives meaningful objects a home, while the rug, cushions and plants soften the harder architectural surfaces.",
+    "challenge": "Display personal objects while keeping the living area calm and organized.",
+    "solution": "We grouped decor by scale and color, leaving enough open space for every item to read clearly.",
+    "year": "2026",
+    "scope": "Home decoration",
+    "style": "Warm modern",
+    "features": ["Open display shelving", "Layered soft furnishings", "Indoor planting", "Balanced accessory groups"],
+    "gallery": [
+      {"src": "../image/work-05.jpg", "alt": "Decorated grey living space"},
+      {"src": "../image/work-07.jpg", "alt": "Yellow chair and geometric accessory"},
+      {"src": "../image/work-01.jpg", "alt": "Coordinated bedroom and living details"}
+    ]
+  },
+  {
+    "slug": "soft-contrast",
+    "title": "Soft Contrast",
+    "category": "Kitchen Design",
+    "tagline": "A hardworking kitchen with bold color and warm natural texture.",
+    "heroImage": "../image/work-06.jpg",
+    "heroAlt": "Yellow and charcoal kitchen with timber work surfaces",
+    "description": "Soft Contrast combines efficient storage with a bold yellow and charcoal palette. Timber surfaces warm the stronger colors, and the lighting plan keeps preparation areas clear throughout the day.",
+    "challenge": "Fit generous storage and preparation space into one clean visual composition.",
+    "solution": "Full-height cabinetry, a simple work triangle and integrated appliances keep the room efficient and ordered.",
+    "year": "2026",
+    "scope": "Kitchen planning and finishes",
+    "style": "Bold contemporary",
+    "features": ["Full-height storage", "Integrated appliances", "Layered pendant lighting", "Durable timber work surfaces"],
+    "gallery": [
+      {"src": "../image/work-06.jpg", "alt": "Yellow kitchen cabinetry and timber surfaces"},
+      {"src": "../image/more-infor 02.jpg", "alt": "Modern neutral kitchen with open dining area"},
+      {"src": "../image/work-08.jpg", "alt": "Black and yellow media wall"}
+    ]
+  },
+  {
+    "slug": "amazing-bedrooms",
+    "title": "Amazing Bedrooms",
+    "category": "Interior Design",
+    "tagline": "A restful room built from warm light, quiet color and tactile layers.",
+    "heroImage": "../image/more-infor 01.jpg",
+    "heroAlt": "Warm contemporary bedroom interior",
+    "description": "Amazing Bedrooms focuses on the details that help a room feel calm. A clear furniture plan, layered bedside light and soft materials make the space comfortable from morning through night.",
+    "challenge": "Create a bedroom that feels refined without losing warmth or everyday practicality.",
+    "solution": "We combined accessible storage, soft lighting and a restrained palette with varied texture.",
+    "year": "2026",
+    "scope": "Bedroom design and styling",
+    "style": "Calm contemporary",
+    "features": ["Layered bedside lighting", "Comfortable circulation", "Soft neutral materials", "Integrated storage"],
+    "gallery": [
+      {"src": "../image/more-infor 01.jpg", "alt": "Warm bedroom with layered lighting"},
+      {"src": "../image/work-04.jpg", "alt": "Bedroom corner with compact seating"},
+      {"src": "../image/work-01.jpg", "alt": "Grey interior with yellow accents"}
+    ]
+  },
+  {
+    "slug": "modern-kitchens",
+    "title": "Modern Kitchens",
+    "category": "Kitchen Design",
+    "tagline": "Modern, minimal, ergonomic and made for everyday life.",
+    "heroImage": "../image/more-infor 02.jpg",
+    "heroAlt": "Modern kitchen with a practical open layout",
+    "description": "Modern Kitchens brings preparation, cooking and gathering into one connected space. Storage is placed where it is needed, durable surfaces are easy to maintain and the simple palette keeps the room visually calm.",
+    "challenge": "Support cooking, storage and casual gathering without making the room feel busy.",
+    "solution": "We organized the layout around daily movement and kept materials consistent across cabinetry and work surfaces.",
+    "year": "2026",
+    "scope": "Kitchen design",
+    "style": "Modern minimal",
+    "features": ["Ergonomic work zones", "Generous closed storage", "Easy-care materials", "Open social layout"],
+    "gallery": [
+      {"src": "../image/more-infor 02.jpg", "alt": "Modern kitchen and dining space"},
+      {"src": "../image/work-06.jpg", "alt": "Yellow and charcoal fitted kitchen"},
+      {"src": "../image/work-05.jpg", "alt": "Open-plan living and dining area"}
+    ]
+  },
+  {
+    "slug": "clean-lines",
+    "title": "Clean Lines",
+    "category": "Interior Design",
+    "tagline": "A graphic media room where storage becomes part of the architecture.",
+    "heroImage": "../image/work-08.jpg",
+    "heroAlt": "Black and yellow media room with clean-lined furniture",
+    "description": "Clean Lines uses low furniture and wall-mounted storage to keep the room open. The yellow feature plane organizes the television and cabinetry as one composition, while black furniture creates a grounded foreground.",
+    "challenge": "Integrate media equipment and storage without creating visual clutter.",
+    "solution": "A single wall composition hides the functional elements and gives the room a strong architectural focus.",
+    "year": "2026",
+    "scope": "Interior and media storage design",
+    "style": "Graphic modern",
+    "features": ["Wall-mounted storage", "Integrated media zone", "Low-profile furniture", "Strong architectural color"],
+    "gallery": [
+      {"src": "../image/work-08.jpg", "alt": "Clean-lined black and yellow media room"},
+      {"src": "../image/work-07.jpg", "alt": "Modern chair and geometric table accessory"},
+      {"src": "../image/work-05.jpg", "alt": "Living room with black shelving"}
+    ]
+  }
+]

@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="../css/pages.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
   <script src="../js/main.js" defer></script>
+  <script src="../js/shop.js" defer></script>
 </head>
 
 <body data-page="shop" data-root="../"><a class="visually-hidden" href="#main">Skip to
@@ -29,44 +30,9 @@
           <p class="lead">Explore the objects featured in the original X-Tra design. Prices are examples from the
             original concept; contact us to ask about an item.</p>
         </div>
-        <div class="shop-grid">
-          <article class="shop-card"><img src="../image/page 1.jpg" alt="Yellow skateboard displayed above a cabinet"
-              loading="lazy">
-            <div class="shop-card__body"><span class="tag">Object</span>
-              <h3>Skateboard</h3><strong>$117.00</strong>
-              <p>A playful detail that brings movement and personality to the room.</p><a class="text-link"
-                href="mailto:example@gmail.com?subject=Question%20about%20Skateboard">Ask about this <span><i
-                    class="fa-solid fa-angle-right" aria-hidden="true"></i></span></a>
-            </div>
-          </article>
-          <article class="shop-card"><img src="../image/page 1.jpg" alt="Yellow chair in a modern living room"
-              loading="lazy">
-            <div class="shop-card__body"><span class="tag">Furniture</span>
-              <h3>Yellow Chair</h3><strong>$199.00</strong>
-              <p>A bright, comfortable accent against the room's darker palette.</p><a class="text-link"
-                href="mailto:example@gmail.com?subject=Question%20about%20Yellow%20Chair">Ask about this <span><i
-                    class="fa-solid fa-angle-right" aria-hidden="true"></i></span></a>
-            </div>
-          </article>
-          <article class="shop-card"><img src="../image/page 1.jpg" alt="Framed calligraphy on the living room wall"
-              loading="lazy">
-            <div class="shop-card__body"><span class="tag">Wall art</span>
-              <h3>Calligraphy Art</h3><strong>$500.00</strong>
-              <p>Graphic art that adds a warm visual focal point.</p><a class="text-link"
-                href="mailto:example@gmail.com?subject=Question%20about%20Calligraphy%20Art">Ask about this <span><i
-                    class="fa-solid fa-angle-right" aria-hidden="true"></i></span></a>
-            </div>
-          </article>
-          <article class="shop-card"><img src="../image/page 1.jpg" alt="Basket of lemons on a coffee table"
-              loading="lazy">
-            <div class="shop-card__body"><span class="tag">Decor</span>
-              <h3>Lemon Art</h3><strong>$10.00</strong>
-              <p>A lively color accent for a shelf or table.</p><a class="text-link"
-                href="mailto:example@gmail.com?subject=Question%20about%20Lemon%20Art">Ask about this <span><i
-                    class="fa-solid fa-angle-right" aria-hidden="true"></i></span></a>
-            </div>
-          </article>
-        </div>
+        <div class="shop-loading" data-shop-loading role="status">Loading shop items…</div>
+        <div class="shop-grid" data-shop-grid hidden></div>
+        <div class="shop-error" data-shop-error hidden><p>We couldn’t load the shop items. Please refresh the page or try again later.</p></div>
       </div>
     </section>
   </main><site-footer></site-footer>

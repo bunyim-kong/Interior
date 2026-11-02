@@ -49,8 +49,8 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   const categories = document.querySelectorAll('.category-cols a');
-  ['interior', 'decoration', 'exterior', 'kitchen'].forEach((item, index) => {
-    if (categories[index]) categories[index].href = `page/services.html#${item}`;
+  ['page/services.html#interior', 'page/services.html#decoration', 'page/services.html#exterior', 'page/services.html'].forEach((href, index) => {
+    if (categories[index]) categories[index].href = href;
   });
   document.querySelectorAll('.more-infor a').forEach(link => { link.href = 'page/project.html'; });
   document.querySelectorAll('.our-services-cols-big-swap a, .about-me-text-item a').forEach(link => { link.href = 'page/contact.html'; });

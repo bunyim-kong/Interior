@@ -5,40 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <script src="script.js"></script>
+    <script src="js/main.js" defer></script>
 </head>
-<body>
-    <header>
-        <div class="navbar">
-            <div class="logo">
-                <img src="image/logo-x tra.png" alt="">
-            </div>
-            <div class="nav-link">
-                <ul>
-                    <li><a href="#hero" class="active">Home</a></li>
-                    <li><a href="index.html#about">About</a></li>
-                    <li><a href="#Services">Services</a></li>
-                    <li><a href="">Project</a></li>
-                    <li><a href="">FAQ</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Shop</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-
-        <script>
-            window.addEventListener("scroll", function() {
-                const header = document.querySelector("header");
-                if (window.scrollY > 50) {
-                    header.classList.add("scrolled");
-                } else {
-                    header.classList.remove("scrolled");
-                }
-            });
-        </script>
-    </header>
+<body data-page="home" data-root="">
+    <a class="visually-hidden" href="#hero">Skip to content</a>
+    <site-header></site-header>
 
     <section id="hero">
         <img src="image/page 1.jpg" alt="">
@@ -53,7 +27,7 @@
     <section class="about-and-category">  
         <div class="category">
             <div class="category-cols" style="background-color: black;">
-                <a href="">
+                <a href="page/services.html#interior" aria-label="Explore interior design services">
                     <i class="fa-solid fa-angle-right"></i>
                 </a>
 
@@ -61,7 +35,7 @@
             </div>
             
             <div class="category-cols extra" style="background-color: rgb(6, 197, 6);">
-                <a href="">
+                <a href="page/services.html#decoration" aria-label="Explore decoration services">
                     <i class="fa-solid fa-angle-right"></i>
                 </a>
 
@@ -69,19 +43,19 @@
             </div>
 
             <div class="category-cols extra" style="background-color: rgb(71, 204, 71);">
-                <a href="">
+                <a href="page/services.html#exterior" aria-label="Explore exterior design services">
                     <i class="fa-solid fa-angle-right"></i>
                 </a>
 
-                <span>Decoration</span>
+                <span>Exterior Design</span>
             </div>
 
             <div class="category-cols extra" style="background-color: rgb(128, 212, 128);">
-                <a href="">
+                <a href="page/services.html" aria-label="Explore architecture services">
                     <i class="fa-solid fa-angle-right"></i>
                 </a>
 
-                <span>Decoration</span>
+                <span>Architecture</span>
             </div>
         </div>
 

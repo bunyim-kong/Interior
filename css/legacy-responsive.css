@@ -241,22 +241,31 @@
     min-height: 290px;
   }
 
+  .box-style {
+    margin-left: 0;
+  }
+
   .text-box-style-num {
     top: 8%;
-    left: 43%;
+    left: 50%;
   }
 
   .text-box-style-num h1 {
     font-size: 165px;
+    margin-left: 0;
+    line-height: 1;
   }
 
   .text-box-style-txt {
     top: 75%;
-    left: 47%;
+    left: 50%;
   }
 
   .text-box-style-txt span {
+    display: block;
     font-size: 55px;
+    margin-left: 0;
+    line-height: 1;
   }
 
   .our-work {

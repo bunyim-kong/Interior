@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="View product details from the X-Tra decoration shop.">
+  <title>Shop Item | X-Tra</title>
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/pages.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <script src="../js/main.js" defer></script>
+  <script src="../js/shop-detail.js" defer></script>
+</head>
+
+<body data-page="shop" data-root="../"><a class="visually-hidden" href="#main">Skip to content</a><site-header></site-header>
+  <main id="main">
+    <div class="product-loading" data-product-loading role="status">Loading item…</div>
+
+    <div data-product-content hidden>
+      <section class="page-hero product-detail-hero">
+        <img class="page-hero__image" data-product-hero-image src="" alt="">
+        <div class="container"><span class="eyebrow" data-product-category></span>
+          <h1 data-product-title></h1>
+          <p data-product-tagline></p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <nav class="breadcrumb" aria-label="Breadcrumb"><a href="../index.html">Home</a><span aria-hidden="true">/</span><a href="shop.html">Shop</a><span aria-hidden="true">/</span><span data-product-breadcrumb></span></nav>
+          <div class="product-detail-grid">
+            <div class="product-detail-media"><img data-product-image src="" alt=""></div>
+            <div class="product-detail-copy"><span class="eyebrow" data-product-copy-category></span>
+              <h2 class="section-title" data-product-heading></h2>
+              <strong class="product-detail-price" data-product-price></strong>
+              <p class="lead" data-product-description></p>
+              <dl class="product-facts">
+                <div><dt>Material</dt><dd data-product-material></dd></div>
+                <div><dt>Dimensions</dt><dd data-product-dimensions></dd></div>
+                <div><dt>Finish</dt><dd data-product-finish></dd></div>
+              </dl>
+              <a class="text-link" data-product-enquiry href="">Ask About This <span><i class="fa-solid fa-angle-right" aria-hidden="true"></i></span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--white">
+        <div class="container product-feature-layout">
+          <div><span class="eyebrow">Item details</span><h2 class="section-title">Designed to complete the room.</h2><p class="lead">A considered decorative element can connect the colors, materials and personality of a space.</p></div>
+          <ul class="product-feature-list" data-product-features></ul>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container product-detail-nav"><a class="text-link" href="shop.html"><i class="fa-solid fa-angle-left" aria-hidden="true"></i> All Shop Items</a><a class="text-link" data-next-product href="">Next Item <span><i class="fa-solid fa-angle-right" aria-hidden="true"></i></span></a></div>
+      </section>
+    </div>
+
+    <section class="section product-error" data-product-error hidden>
+      <div class="container"><span class="eyebrow">Item unavailable</span><h1 class="section-title">We couldn’t load this item.</h1><p data-product-error-message>Please return to the shop and select another item.</p><a class="text-link" href="shop.html">Back to Shop <span><i class="fa-solid fa-angle-right" aria-hidden="true"></i></span></a></div>
+    </section>
+  </main><site-footer></site-footer>
+</body>
+
+</html>

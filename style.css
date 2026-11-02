@@ -166,8 +166,8 @@ hr {
     z-index: 2;
     position: absolute;
     top: 103%;
-    left: 7.5%;
-    transform: translate(-0%, 10%);
+    left: 50%;
+    transform: translate(-50%, 10%);
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -180,6 +180,7 @@ hr {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 10px;
 }
 
 .category-cols a {
@@ -196,10 +197,12 @@ hr {
 }
 
 .category-cols span {
-    margin-left: 8px;
+    margin-left: 0;
     font-family: "Playfair Display", serif;
     font-size: 22px;
     font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
     color: white;
 }
 
